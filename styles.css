@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;  
+}
+
+.header {
+    padding: 10px;
+    background-color: white;
+
+}
+
+.header h1 {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10;
+}
+
+.content {
+    background-color: white;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.content-img img {
+    width: 100%;
+}
+
+.content-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
